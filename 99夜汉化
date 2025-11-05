@@ -93,7 +93,6 @@ local Translations = {["Key System"] = "密钥系统",
     ["Bring"] = "携带",
     ["Bring Items"] = "携带物品",
     ["Bring Location"] = "携带位置",
-    ["You"] = "你",
     ["Max Per Item"] = "携带每件物品的最大数量",
     ["Enable Safe Bring"] = "启用安全携带",
     ["Stop Bringing"] = "停止携带",
@@ -284,4 +283,5 @@ local function setupTranslationEngine()
         local function setupDescendantListener(parent)
             parent.DescendantAdded:Connect(function(descendant)
                 if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
-                    task.wait
+                    task.wait(0.1)
+             
