@@ -1,0 +1,287 @@
+-- 汉化脚本
+-- 江砚辰破解北海
+
+local Translations = {["Key System"] = "密钥系统",
+    ["Paste your key here"] = "在此输入你的密钥",
+    ["Enter Key"] = "输入密钥",
+    ["Check Key"] = "验证密钥",
+    ["Get Key"] = "获取密钥",
+    ["Join Discord"] = "加入DC频道",
+    ["Perm keys for cheap! Join Now"] = "低价永久密钥！立即加入！",
+    ["Supported Games"] = "支持的游戏",
+    ["Report Issue"] = "反馈问题",
+    ["Dig to Earth's CORE!"] = "挖掘地球核心！",
+    ["Plant VS BrainRots"] = "植物VS大脑机器人",
+    ["Raise a Farm"] = "提升农场",
+    ["Brainrot Evolution"] = "布雷诺特进化",
+    ["Dont Wake up sleeping Brainrot"] = "不要叫醒脑袋！",
+    ["Grow a Garden"] = "种植花园",
+    ["Feed & catch Brainrot"] = "捕捉并喂食食一头脑rot",
+    ["Steal A brainrot"] = "偷走脑红",
+    ["NEW Dungeon Heroes"] = "地牢英雄",
+    ["FORTLINE"] = "堡垒",
+    ["Merge For Diamods"] = "合成并获取钻石",
+    ["Cut the Trees"] = "砍伐树木",
+    ["Fish It"] = "钓鱼吧",
+    ["Find The Auras"] = "寻找光环",
+    ["Simulator"] = "模拟器",
+    ["Pixel Blade [Early Access]"] = "像素刀片",
+    ["99 Nights in the Forest"] = "在森林中的99夜",
+    ["H4xScript"] = "H4xScript  (汉化者为b站名：南晨无聊)",
+    ["Plant"] = "植物",
+    ["BrainRots"] = "大脑机器人",
+    ["Success"] = "成功",
+    ["Key valid!"] = "密钥有效！",
+    ["Loading script..."] = "正在加载脚本...",
+    ["Notice"] = "通知",
+    ["Give Us Feedback so we can improve our scripts."] = "请向我们提供反馈，以便我们改进脚本。",
+    ["Sure"] = "确定",
+    ["No Bwhaha"] = "不",
+    ["Game:"] = "游戏：",
+    ["Survive 99 Nights"] = "生存99天",
+    ["Rank"] = "排名",
+    ["N/A"] = "无",
+    ["FPS:"] = "帧率：",
+    ["Ping"] = "延迟",
+    ["Script Executed"] = "脚本已执行",
+    ["ago"] = "前",
+    ["H4xScript 99 Nights in the Forest"] = "H4xScript 在森林中的99夜(汉化者为b站名：南晨无聊)",
+    ["by Pratik |"] = "由DC用户Pratik开发 |DC频道链接",
+    ["Freemium"] = "免费增值版",
+    ["Current Server Version"] = "当前服务器版本",
+    ["Main"] = "主功能",
+    ["God Mode"] = "上帝模式",
+    ["Kill Aura"] = "击杀光环",
+    ["Kill Aura Targets"] = "击杀光环目标",
+    ["All"] = "所有",
+    ["Kill Aura Range"] = "击杀光环范围",
+    ["Tp To Enemies"] = "传送至敌人处",
+    ["Show Range ( range added by game )"] = "显示范围（游戏附加范围）",
+    ["Hit Box Expander"] = "碰撞箱扩展器",
+    ["Expand Hitbox"] = "扩展碰撞箱",
+    ["Stun enemies (Wolf,Tsuk,etc)"] = "击晕敌人（狼等）",
+    ["Hitbox Size"] = "碰撞箱大小",
+    ["Health"] = "健康",
+    ["Auto Bandage"] = "自动使用绷带",
+    ["Heal When below"] = "生命值低于（数值）时治疗",
+    ["Auto Heal Teammates (Hold Bandage)"] = "自动治疗队友（按住包扎键）",
+    ["Auto Eat"] = "自动进食",
+    ["Eat Near..."] = "在附近进食...",
+    ["Select Foods"] = "选择食物",
+    ["Carrot"] = "胡萝卜",
+    ["Eat When below"] = "饥饿值低于（数值）时进食",
+    ["Events"] = "活动",
+    ["Carnival Event"] = "嘉年华活动",
+    ["Auto Toss Ring"] = "自动扔环",
+    ["Auto Basketball"] = "自动篮球",
+    ["Auto Shoot ( Click Twice )"] = "自动射击（点击两次）",
+    ["Select Location"] = "选择位置",
+    ["Halloween"] = "万圣节",
+    ["Scanned Halloween Houses"] = "已扫描的万圣节房屋",
+    ["Teleport to House Door"] = "传送至房屋门口",
+    ["Bring Candle"] = "携带蜡烛",
+    ["Auto Taming ( turn off stun )"] = "自动驯服（关闭击晕）",
+    ["Auto Minigames"] = "自动游戏",
+    ["Auto Feed"] = "自动喂食",
+    ["Auto Fishing"] = "自动钓鱼",
+    ["Auto Cast"] = "自动抛竿",
+    ["Bigger Success Bar"] = "放大成功条",
+    ["Fishing Settings"] = "钓鱼设置",
+    ["Mode"] = "模式",
+    ["Auto Best Spot"] = "自动最佳位置",
+    ["Tp To Best Location"] = "传送至最佳位置",
+    ["Bring"] = "携带",
+    ["Bring Items"] = "携带物品",
+    ["Bring Location"] = "携带位置",
+    ["You"] = "你",
+    ["Max Per Item"] = "携带每件物品的最大数量",
+    ["Enable Safe Bring"] = "启用安全携带",
+    ["Stop Bringing"] = "停止携带",
+    ["Fix Items For others"] = "修复他人无法拾取的物品",
+    ["Gears"] = "金属",
+    ["Bring Gears"] = "携带金属",
+    ["Fuel"] = "燃料",
+    ["Bring Fuel"] = "携带燃料",
+    ["Food & Healing"] = "食物与健康",
+    ["Bring Food & Healing"] = "携带食物和治疗物品",
+    ["Guns & Armor"] = "枪和护甲",
+    ["Bring Guns & Armor"] = "携带枪和护甲",
+    ["Bring Others"] = "携带其他物品",
+    ["Others"] = "其他物品",
+    ["Auto"] = "自动",
+    ["Auto Rescue Kids"] = "自动营救孩子",
+    ["Auto Farm Wood"] = "自动伐木",
+    ["Auto Sapling"] = "自动种植树苗",
+    ["Auto Campfire"] = "自动营火",
+    ["Auto SeedPack And Time Machine"] = "自动种子包与时光机",
+    ["Auto Chest"] = "自动宝箱",
+    ["Auto Break Ice"] = "自动破冰",
+    ["Number of Trees to Cut"] = "要砍伐的树木数量",
+    ["Small Tree"] = "小树",
+    ["Auto Farm Wood Type"] = "自动伐木类型",
+    ["Select Child"] = "选择孩子",
+    ["Auto Rescue"] = "自动营救",
+    ["Sapling Placement Mode"] = "树苗放置模式",
+    ["Sapling Count"] = "树苗数量",
+    ["Sapling Distance"] = "树苗间距",
+    ["Circle"] = "圆形",
+    ["Show Blueprint"] = "显示蓝图",
+    ["Log"] = "原木",
+    ["Select Fuels"] = "选择燃料",
+    ["Auto Fuel Campfire"] = "自动为营火添加燃料",
+    ["Start Fueling When"] = "当（数值）时开始添加燃料",
+    ["Auto Time Machine (every Morning)"] = "自动时光机（每天早上）",
+    ["Open Seed Pack"] = "打开种子包",
+    ["AutoCollect Coins"] = "自动收集硬币",
+    ["AutoCollect Flowers"] = "自动收集花朵",
+    ["Break All Ice"] = "打破所有的冰",
+    ["Break Nearest Ice"] = "打破最近的冰",
+    ["Open All Chest"] = "打开所有宝箱",
+    ["Campfire"] = "营火",
+    ["Bring Chest Item to"] = "将宝箱物品携带至",
+    ["Teleport"] = "传送",
+    ["MapLoader"] = "加载地图",
+    ["Stop Loading"] = "停止加载",
+    ["Tp To Camp"] = "传送至篝火",
+    ["Select Chest"] = "选择宝箱",
+    ["Chest"] = "宝箱",
+    ["Refresh Chest"] = "刷新宝箱",
+    ["Teleport to Chest"] = "传送至宝箱",
+    ["None"] = "无",
+    ["TP to Selected NPC"] = "传送至选中的NPC",
+    ["Fairy"] = "仙子",
+    ["Select NPC"] = "选择NPC",
+    ["Teleport to NPC"] = "传送至NPC",
+    ["Teleport to Child"] = "传送至孩子",
+    ["DinoKid"] = "恐龙孩子",
+    ["Child"] = "孩子",
+    ["Stronghold"] = "要塞",
+    ["Select Structure"] = "选择建筑",
+    ["Teleport to Structure"] = "传送至建筑",
+    ["TP to Selected Structure"] = "传送至选中的建筑",
+    ["Visuals"] = "视觉效果(ESP)",
+    ["Child Visuals"] = "Child Visuals	孩子视觉效果(ESP)",
+    ["Enable Child ESP"] = "启用孩子ESP",
+    ["Gear and Fuel Visuals"] = "装备与燃料视觉效果(ESP)",
+    ["Select Gears & Fuels"] = "选择金属与燃料",
+    ["Enable Gear and Fuel ESP"] = "启用金属与燃料ESP",
+    ["Enable Weapon and Other Items ESP"] = "启用武器与其他物品ESP",
+    ["Select Weapons & Other Items"] = "选择武器与其他物品",
+    ["Weapons and Other Items Visuals"] = "武器与其他物品视觉效果(ESP)",
+    ["Enable Chest ESP"] = "启用宝箱ESP",
+    ["Chest Visuals"] = "宝箱视觉效果(ESP)",
+    ["Reveal Locations"] = "显示位置",
+    ["Blackscreen"] = "黑屏",
+    ["Full Bright"] = "全亮",
+    ["Lower Graphics"] = "降低画质",
+    ["Remove Fog"] = "移除雾气",
+    ["FPS Boost"] = "帧率提升",
+    ["Freeze Character"] = "冻结角色",
+    ["Feedback"] = "反馈",
+    ["Anti Afk"] = "防挂机",
+    ["LocalPlayer"] = "本地玩家",
+    ["Infinite Jump"] = "无限跳跃",
+    ["Player Speed"] = "玩家速度",
+    ["Movement"] = "移动",
+    ["Spin"] = "旋转",
+    ["Fly Speed"] = "飞行速度",
+    ["Fly"] = "飞行",
+    ["Noclip"] = "穿墙",
+    ["Enable Spin"] = "启用旋转",
+    ["Spin Speed"] = "旋转速度",
+    ["Instant Open Chest"] = "立即打开宝箱",
+    ["Settings"] = "设置",
+    ["Enable Notify"] = "启用通知",
+    ["Transparency"] = "透明度",
+    ["Volcano"] = "火山",
+    ["Theme"] = "主题",
+    ["UI Settings"] = "界面设置",
+    ["Anti Void"] = "防虚空",
+    ["Rejoin Server"] = "重新加入服务器",
+    ["Join Server"] = "加入服务器",
+    ["Enter Job ID"] = "输入工作ID",
+    ["Server ID"] = "服务器ID",
+    ["Default"] = "默认",
+    ["Config Name"] = "配置名称",
+    ["Configs"] = "配置",
+    ["Select Config"] = "选择配置",
+    ["Save Config"] = "保存配置",
+    ["Refresh Configs"] = "刷新配置",
+    ["Load Config"] = "加载配置",
+    ["Auto Load Config"] = "自动加载配置",
+    }
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then return text end
+    
+    if Translations[text] then
+        return Translations[text]
+    end
+    
+    for en, cn in pairs(Translations) do
+        if text:find(en) then
+            return text:gsub(en, cn)
+        end
+    end
+    
+    return text
+end
+
+local function setupTranslationEngine()
+    local success, err = pcall(function()
+        local oldIndex = getrawmetatable(game).__newindex
+        setreadonly(getrawmetatable(game), false)
+        
+        getrawmetatable(game).__newindex = newcclosure(function(t, k, v)
+            if (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) and k == "Text" then
+                v = translateText(tostring(v))
+            end
+            return oldIndex(t, k, v)
+        end)
+        
+        setreadonly(getrawmetatable(game), true)
+    end)
+    
+    if not success then
+        warn("元表劫持失败:", err)
+       
+        local translated = {}
+        local function scanAndTranslate()
+            for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+                if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                    pcall(function()
+                        local text = gui.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                gui.Text = translatedText
+                                translated[gui] = true
+                            end
+                        end
+                    end)
+                end
+            end
+            
+            local player = game:GetService("Players").LocalPlayer
+            if player and player:FindFirstChild("PlayerGui") then
+                for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+                    if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                        pcall(function()
+                            local text = gui.Text
+                            if text and text ~= "" then
+                                local translatedText = translateText(text)
+                                if translatedText ~= text then
+                                    gui.Text = translatedText
+                                    translated[gui] = true
+                                end
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+        
+        local function setupDescendantListener(parent)
+            parent.DescendantAdded:Connect(function(descendant)
+                if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+                    task.wait
